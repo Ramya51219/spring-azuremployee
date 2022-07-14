@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.examplesql</groupId>
-	<artifactId>demo-azure-sqldb-exam</artifactId>
+	<artifactId>demo-azure-sqldb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo-azure-sqldb-exam</name>
-	<description>Demo project for Spring Boot azure</description>
+	<name>demo-azure-sqldb</name>
+	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -44,6 +44,16 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			 
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.19.1</version>
+        </plugin>
+ 
+       
+ 
+			
 		</plugins>
 	</build>
 
